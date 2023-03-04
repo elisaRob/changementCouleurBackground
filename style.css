@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    animation-name:changementCouleur;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes changementCouleur{
+    0%{
+        background-color:aquamarine;
+    }
+
+    20%{
+        background-color:blueviolet
+    }
+
+    40%{
+        background-color:brown;
+    }
+
+    60%{
+        background-color: burlywood;
+    }
+
+    80%{
+        background-color: cadetblue;
+    }
+
+    100%{
+        background-color:aquamarine;
+    }
+}
